@@ -60,7 +60,7 @@
         repo: "https://github.com/kuliav/4IT572_docker.git"
         dest: ./app
 
-        - name: Build Eshop Docker image
+    - name: Build Eshop Docker image
       docker_image: 
         build:
           path: ./app
